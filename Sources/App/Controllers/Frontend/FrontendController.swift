@@ -2,7 +2,6 @@ import Vapor
 
 // sourcery: controller
 // sourcery: collection = Frontend
-
 internal final class FrontendController {
     
     private let renderer: ViewRenderer
