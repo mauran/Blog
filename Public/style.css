@@ -1,0 +1,17 @@
+
+@import url('https://fonts.googleapis.com/css?family=Quicksand');
+
+body {
+	background-color: #000;
+}
+
+.title {
+	font-family: 'Quicksand', sans-serif;
+	color: #c9c9c9;
+	font-size: 3vw;
+	-webkit-user-select: none;        
+	-moz-user-select: none;
+	-ms-user-select: none;
+	user-select: none;
+	cursor:help
+}
