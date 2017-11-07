@@ -12,7 +12,11 @@ internal final class FrontendController {
     
     // sourcery: route, method = get, path = /
     internal func index(_ req: Request) throws -> ResponseRepresentable {
-        return try self.renderer.make("index", [], for: req)
+        return try self.renderer.make(
+            "index",
+            [],
+            for: req
+        )
     }
     
 }
