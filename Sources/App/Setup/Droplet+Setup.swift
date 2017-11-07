@@ -7,7 +7,12 @@ extension Droplet {
 
     /// Configure all routes
     private func setupRoutes() throws {
-    	try self.collection(PostRoutes.self)
-    	try self.collection(TestRoutes.self)
+        try self.collection(
+            FrontendRoutes(
+                controller: FrontendController(
+                    renderer: self.view
+                )
+            )
+        )
     }
 }
